@@ -30,8 +30,8 @@ function About() {
             <span className="parple">Computer Science Engineerning</span> <br />
             Apart from Coading , some other activities i like to do!
           </p>
-          <ul className="cart-body-p">
-            <li>
+          <ul className="cart-body-p" style={{listStyle:"none"}}>
+            <li >
               <FaArrowCircleRight />
               Reading Book
             </li>
