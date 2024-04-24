@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoMdPerson } from "react-icons/io";
 import { FaLaptopCode } from "react-icons/fa6";
 import { IoNewspaperSharp } from "react-icons/io5";
 import { Link } from "react-router-dom";
 function Header() {
- 
   return (
     <>
     
@@ -29,7 +28,7 @@ function Header() {
 
             <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small header-text-ul">
               <li >
-                <Link to="/home" className="nav-link text-secondary">
+                <Link to="/home" className="nav-link text-white">
                   <svg
                     className="bi d-block mx-auto mb-10"
                     width="24"

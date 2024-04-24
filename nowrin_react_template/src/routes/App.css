@@ -158,3 +158,6 @@
   transition: font-size 0.8s;
   /* Change border color on hover */
 }
+.red{
+  border: #c770f0;
+}
