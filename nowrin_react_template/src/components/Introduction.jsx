@@ -14,7 +14,6 @@ function Introduction() {
               className="introduction-skill "
               style={{
                 textAlign: "start",
-                textAlign: "start",
                 marginTop: "20px",
               }}
             >
